@@ -29,14 +29,14 @@ Função para inserir item
 -	Resources -> Add arn -> Selecionar o arn da tabela criada no DynamoDB -> Add
 -	Review policy -> Name [lambda_dynamodb_putItem_policy] -> Create policy
 
-#Integrando o API Gateway com o Lambda backend
+# Integrando o API Gateway com o Lambda backend
 
 API Gateway Dashboard -> Selecionar a API criada -> Resources -> Selecionar o resource criado -> Action -> Create method - POST
 Integration type -> Lambda function -> Use Lambda Proxy Integration -> Lambda function -> Selecionar a função Lambda criada -> Save
 Actions -> Deploy API -> Deployment Stage -> New Stage [dev] -> Deploy
 
 
-#No POSTMAN
+# No POSTMAN
 Add Request -> Method POST -> Copiar o endpoint gerado no API Gateway
 Body -> Raw -> JSON -> Adicionar o seguinte body
 
